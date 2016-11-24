@@ -1,0 +1,21 @@
+hello-ionic-page {
+
+  p {
+    margin: 20px 0;
+    line-height: 22px;
+    font-size: 16px;
+  }
+
+  .responsive-card {
+    width: 98%;
+    float: left;
+  }
+
+@media screen and (min-width: 600px) {
+    .responsive-card {
+        width: 46%;
+        margin-top: 10px;
+    }
+  }
+
+}
